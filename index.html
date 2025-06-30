@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coinbase Wallet</title>
+    <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[#0a0b0d]">
+    <!-- navbar -->
+     <div class="text-white h-[110px] border-b-4 border-[#17181b] flex items-center justify-evenly sticky top-0 bg-[#0a0b0d] ">
+        <div class="ml-2 md:ml-2 mr-120 text-5xl text-blue-700 cursor-pointer">
+            <i class="fa-solid fa-record-vinyl"></i>
+        </div>
+        <div class="ml-2 mr-12 text-xl h-14 w-18 lg:w-180 lg:ml-48 lg:mr-4 border-0.5 flex items-center  bg-[#282b31] rounded-4xl p-6 cursor-pointer">
+            <i class="fa-solid fa-magnifying-glass mr-18 md:mr-2"></i>
+            <input class="ml-8 focus:outline-none" type="search" placeholder="Search coins, apps...">
+        </div>
+        <div class="ml-4 text-xl h-14 w-46 hidden font-bold lg:flex items-center justify-center bg-[#282b31] rounded-4xl p-1 cursor-pointer">
+            <h1>Create a wallet</h1>
+        </div>
+        <div class="ml-4 mr-4 text-xl h-12 hidden w-38 font-bold lg:flex items-center justify-center  border-2 bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500 rounded-4xl p-0.5  focus:border-pink-600 cursor-pointer">
+            <div class="flex h-full w-full items-center justify-center rounded-full bg-[#0a0b0d]">
+             Connect
+           </div>
+        </div>
+     </div>
+
+     <!-- navbar-2 -->
+      <div class="sticky top-27.5 h-[90px] w-full bg-[#0a0b0d]">
+      <div class="text-white h-[60px] w-full flex items-center p-2 sticky top-30 bg-[#0a0b0d]">
+        <ul class="flex items-center text-2xl font-bold ml-16 bg-[#0a0b0d] cursor-pointer">
+            <li class="ml-8">Trending</li>
+            <li class="ml-10">Explore</li>
+            <li class="ml-10">Create</li>
+        </ul>
+      </div>
+      <div class="h-1 w-460 mt-4 md:ml-20 flex items-center justify-center text-gray-700 border-b-1 sticky top-50 bg-[#0a0b0d]"></div>
+      </div>
+      
+      <!-- centre with image -->
+
+      <div class="bg-[#141519] md:h-[600px] h-[1000px] w-[90%] md:w-220 lg:w-420 rounded-4xl  md:flex md:justify-end md:ml-20 lg:ml-40 mt-10 flex flex-col-reverse md:flex-row ml-10">
+        <div class="w-[50%] grid md:mt-10 mt-18">
+            <div class="ml-10 mr-4 text-xl h-12 w-40 font-bold lg:flex border-2 bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500 rounded-4xl p-0.5  focus:border-pink-600">
+            <div class="flex h-full w-full items-center justify-center rounded-full bg-[#0a0b0d] text-white">
+             FRESH DROP
+           </div>
+        </div>
+           <div class="flex items-center mt-10 md:mt-0">
+            <div class="ml-10 bg-no-repeat bg-[url(/mySelf/coop.jpeg)] size-13 bg-cover rounded-xl"></div>
+            <div class="text-xl font-semibold text-white ml-4">COOP RECORDS</div>
+           </div>
+            <div class="text-4xl md:text-6xl text-white ml-10 font-semibold md:mt-0 mt-10">Felly - Sweet</div>
+            <div class="text-4xl md:text-6xl text-white ml-10 font-semibold md:mt-[-50px]">Unknowns</div>
+            <div class="text-[#4e596a] text-2xl ml-10 font-semibold md:mt-0 mt-8 w-100">Felly - Sweet Unknowns</div>
+            <div class="h-18 w-[120%] md:w-[90%] bg-gradient-to-b from-[#2876fd] via-[#33a0f3] to-[#42d7e7] flex items-center justify-center ml-7 mr-6 rounded-full md:mt-0 mt-10 mb-10 cursor-pointer font-bold text-xl">Mint</div>
+        </div>
+        <div class="h-[40%] w-[90%] md:h-full md:w-[50%] bg-no-repeat bg-cover bg-[url(/mySelf/picOne.webp)]  md:rounded-tr-4xl md:rounded-br-4xl ml-8"></div>
+      </div>
+
+      <!-- image down side navbar -->
+      <div class="text-white  w-full md:mt-20 md:flex md:justify-between md:flex-row grid items-start lg:px-40 md:px-20 px-10">
+        <ul class="mt-16 md:mt-0 w-[500px]">
+            <li class="text-5xl font-semibold">Trending onchain</li>
+            <li class="text-xl mt-4 text-[#464e55] font-medium">The onchain experiences everyone’s doing today</li>
+        </ul>
+        <p class="text-2xl text-[#2c60da] font-medium md:mt-7 mt-8 cursor-pointer">See experiences</p>
+      </div>
+
+      <!-- 12 cards -->
+    <div class="w-[80%] md:w-[40%] lg:w-[88%] flex-wrap md:h-[1900px] p-2 mt-4 flex flex-col lg:flex-wrap lg:m-14 space-x-8 space-y-10 m-12 ">
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#0d1412] via-[#15201d] to-[#141f1c]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/img1.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">MX1000</li>
+                <li class="font-semibold text-2xl">Satoshi's Secret</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center ml-2">Play</div>
+       </div>   
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#9f9186] via-[#766a61] to-[#786c64]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/img2.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">nounish</li>
+                <li class="font-semibold text-2xl">Three Artists: Paperclip</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center ml-2">Mint</div>
+       </div>   
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#433636] via-[#504040] to-[#4d3d3e]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/img3.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">Coop Records</li>
+                <li class="font-semibold text-2xl">Levity - Flip it</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center ml-2">Mint</div>
+       </div>   
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#624e1b] via-[#584516] to-[#786124]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/img4.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">NOBS by Drew Hanlen</li>
+                <li class="font-semibold text-2xl">NOBS — Digital Book (Onchain)</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center ml-2">Mint</div>
+       </div>   
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#396887] via-[#2b5982] to-[#2a5882]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/img5.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">Coop Records</li>
+                <li class="font-semibold text-2xl">Disco Lines - RWEOK?</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center ml-2">Mint</div>
+       </div>   
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#163953] via-[#162c43] to-[#163049]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/img6.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">Coop Records</li>
+                <li class="font-semibold text-2xl">Vandelux - Motion</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center ml-2">Mint</div>
+       </div>   
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#043362] via-[#04305d] to-[#043667]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/img7.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">priyanka</li>
+                <li class="font-semibold text-2xl">higher in blue 01</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center ml-2">Mint</div>
+       </div>   
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#854a4c] via-[#834c4e] to-[#903c3e]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/ig8.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">Coop Records</li>
+                <li class="font-semibold text-2xl">MPH - 2 People</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center ml-2">Mint</div>
+       </div>   
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#180e08] via-[#26160c] to-[#1f120a]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/img9.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">Knead Magazine</li>
+                <li class="font-semibold text-2xl">Knead Magazine 2025 Membership</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center ml-2">Mint</div>
+       </div>   
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#181a27] via-[#1f2130] to-[#1d1f2e]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/img10.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">Coop Records</li>
+                <li class="font-semibold text-2xl">Zeds Dead - One Of These Mornings</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center ml-2">Mint</div>
+       </div>   
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#171718] via-[#1e1e1f] to-[#181919]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/img11.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">Base Camera</li>
+                <li class="font-semibold text-2xl">Snap photos with Base Camera</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center w-[96%] ml-2">Mint</div>
+       </div>   
+       <div class="text-white lg:w-1/4 md:w-1/2 w-full h-[700px] md:h-[580px] p-2 flex flex-col item-ceter rounded-4xl justify-evenly bg-gradient-to-r from-[#031a16] via-[#042720] to-[#04201a]">
+         <div class="w-[98%] h-[400px] bg-[url(/mySelf/img12.webp)] bg-cover bg-no-repeat rounded-t-4xl bg-center ml-1"></div>
+         <div class="ml-2">
+            <ul>
+                <li class="font-bold">Coop Records</li>
+                <li class="font-semibold text-2xl">Felly - Sweet Unknowns</li>
+            </ul>
+         </div>
+         <div class="text-2xl text-black font-semibold bg-white rounded-4xl flex items-center h-12 justify-center w-[96%] ml-2">Mint</div>
+       </div>   
+    </div>
+
+    <!-- footer navbar -->
+     <div class="text-white  w-full md:mt-20 md:flex md:justify-between md:flex-row grid items-start lg:px-30 md:px-20 px-10 lg:space-x-200 ">
+        <ul class="mt-16 md:mt-0 w-[700px]">
+            <li class="text-5xl font-semibold">Trending swaps</li>
+            <li class="text-xl mt-4 text-[#464e55] font-medium">Tokens with the most swaps in the past 24 hours on Coinbase Wallet</li>
+        </ul>
+        <div class="flex  space-x-2 mt-4 md:h-[200px] lg:mt-0 h-[100px]" >
+        <div class="text-5xl size-14 bg-gradient-to-r from-[#282b31] via-[#282b31] to-[#282b31] rounded-full flex text-center justify-center"><</div>
+        <div class="text-5xl size-14 bg-gradient-to-r from-[#282b31] via-[#282b31] to-[#282b31] rounded-full flex text-center justify-center">></div>
+        </div>
+      </div>
+
+      <!-- footer card -->
+       <div class=" h-[400px] w-[90%] flex space-x-12 items-center justify-evenly md:justify-between p-2 lg:ml-20 md:ml-10">
+        <div class="lg:w-1/3 md:w-1/2 w-full h-[350px] bg-[#141519] rounded-4xl flex flex-col item-center justify-evenly m-10">
+            <div class="px-4 flex space-x-4">
+                <div class="bg-[url(/mySelf/last1.png)] bg-no-repeat bg-cover size-14 rounded-full"></div>
+                <ul>
+                    <li class="text-xl text-white font-bold">MAMO<span class="text-[#195c45] px-2 font-semibold">↗10.89%</span></li>
+                    <li class="text-[#434a56] text-xl font-semibold">$0.0585</li>
+                </ul>
+            </div>
+            <div class="text-4xl text-white px-4">249 swaps</div>
+            <div class="w-[90%] flex">
+                <div class="h-2 w-[65%] border-1 rounded-2xl border-[#1e6a4c] bg-[#1e6a4c] ml-4"></div>
+                <div class="h-2 w-[35%] border-1 rounded-2xl border-[#f0616d] bg-[#f0616d]"></div>
+            </div>
+            <div class="w-[90%] flex justify-between px-4">
+                <div class="flex space-x-2 items-center"><div class="size-4 bg-[#1e6a4c] rounded-full"></div><div class="text-2xl font-semibold text-[#4f545b]">65% bought</div></div>
+                <div class="flex space-x-2 items-center"><div class="size-4 bg-[#f0616d] rounded-full"></div><div class="text-2xl font-semibold text-[#4f545b]">35% sold</div></div>
+            </div>
+            <div class="text-white font-semibold bg-[#282b31] w-[90%] rounded-4xl h-12 ml-4 text-2xl flex items-center justify-center">Swap</div>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 w-auto h-[350px] bg-[#141519] rounded-4xl md:flex flex-col item-center justify-evenly hidden">
+            <div class="px-4 flex space-x-4">
+                <div class="bg-[url(/mySelf/last2.jpeg)] bg-no-repeat bg-cover size-14 rounded-full"></div>
+                <ul>
+                    <li class="text-xl text-white font-bold">KTA<span class="text-[#f0616d] px-2 font-semibold">↘5.64%</span></li>
+                    <li class="text-[#434a56] text-xl font-semibold">$0.70</li>
+                </ul>
+            </div>
+            <div class="text-4xl text-white px-4">398 swaps</div>
+            <div class="w-[90%] flex">
+                <div class="h-2 w-[44%] border-1 rounded-2xl border-[#1e6a4c] bg-[#1e6a4c] ml-4"></div>
+                <div class="h-2 w-[56%] border-1 rounded-2xl border-[#f0616d] bg-[#f0616d]"></div>
+            </div>
+            <div class="w-[90%] flex justify-between px-4">
+                <div class="flex space-x-2 items-center"><div class="size-4 bg-[#1e6a4c] rounded-full"></div><div class="text-2xl font-semibold text-[#4f545b]">44% bought</div></div>
+                <div class="flex space-x-2 items-center"><div class="size-4 bg-[#f0616d] rounded-full"></div><div class="text-2xl font-semibold text-[#4f545b]">56% sold</div></div>
+            </div>
+            <div class="text-white font-semibold bg-[#282b31] w-[90%] rounded-4xl h-12 ml-4 text-2xl flex items-center justify-center">Swap</div>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 w-auto h-[350px] bg-[#141519] rounded-4xl lg:flex flex-col item-center justify-evenly hidden">
+            <div class="px-4 flex space-x-4">
+                <div class="bg-[url(/mySelf/last3.png)] bg-no-repeat bg-cover size-14 rounded-full"></div>
+                <ul>
+                    <li class="text-xl text-white font-bold">BRETT<span class="text-[#f0616d] px-2 font-semibold">↘0.00%</span></li>
+                    <li class="text-[#434a56] text-xl font-semibold">$0.0431</li>
+                </ul>
+            </div>
+            <div class="text-4xl text-white px-4">328 swaps</div>
+            <div class="w-[90%] flex">
+                <div class="h-2 w-[47%] border-1 rounded-2xl border-[#1e6a4c] bg-[#1e6a4c] ml-4"></div>
+                <div class="h-2 w-[53%] border-1 rounded-2xl border-[#f0616d] bg-[#f0616d]"></div>
+            </div>
+            <div class="w-[90%] flex justify-between px-4">
+                <div class="flex space-x-2 items-center"><div class="size-4 bg-[#1e6a4c] rounded-full"></div><div class="text-2xl font-semibold text-[#4f545b]">47% bought</div></div>
+                <div class="flex space-x-2 items-center"><div class="size-4 bg-[#f0616d] rounded-full"></div><div class="text-2xl font-semibold text-[#4f545b]">53% sold</div></div>
+            </div>
+            <div class="text-white font-semibold bg-[#282b31] w-[90%] rounded-4xl h-12 ml-4 text-2xl flex items-center justify-center">Swap</div>
+        </div>
+       </div>
+
+       <!-- footer -->
+        <div class="h-34 w-full flex items-center justify-center border-t-2 border-gray-700 text-[#3f4244] text-xl font-bold">
+            <ul class="flex space-x-10">
+                <li>We are hiring</li>
+                <li>Terms of service</li>
+                <li>Privacy policy</li>
+            </ul>
+        </div>
+        
+</body>
+</html>
